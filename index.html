@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<!--
+	ranjhan.info.  A site about Raj Ranjhan
+	Original creadit: html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>ranjhan.info - all about raj ranjhan</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+	<div id="wrapper">
+		<div id="bg"></div>
+		<div id="overlay"></div>
+		<div id="main">
+
+			<!-- Header -->
+			<header id="header">
+				<h1>Raj Ranjhan</h1>
+				<p>Cloud Security &nbsp;&bull;&nbsp; DevSecOps &nbsp;&bull;&nbsp; CloudOps &nbsp;&bull;&nbsp; Developer
+				</p>
+				<nav>
+					<ul>
+						<li><a href="https://twitter.com/aranjhan" id="twitter-ref" style="text-decoration:none"
+								target="_blank" class="icon brands fa-twitter"><span class="label">Twitter</span></a>
+						</li>
+						<li><a href="https://www.linkedin.com/in/aranjhan/" id="linkedin-ref"
+								style="text-decoration:none" target="_blank" class="icon brands fa-linkedin"><span
+									class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/rajranjhan" id="github-ref" style="text-decoration:none"
+								target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://ranjhan.info/documents/resume.pdf" id="resume-ref"
+								style="text-decoration:none" target="_blank" class="fas fa-file-pdf"><span
+									class="label">Resume</span></a></li>
+						<li><a href="mailto:ranjhan@gmail.com" id="contact-ref" style="text-decoration:none"
+								target="_blank" class="icon solid fa-envelope"><span class="label">Contact</span></a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<span class="copyright">&copy; 2023. Design: <a href="https://www.linkedin.com/in/aranjhan/">Ranjhan.info</a>.</span>
+			</footer>
+
+		</div>
+	</div>
+	<!-- Tooltips -->
+	<script src="https://unpkg.com/@popperjs/core@2"></script>
+	<script src="https://unpkg.com/tippy.js@6"></script>
+	
+	<script>
+		tippy('#twitter-ref', {
+			placement: 'bottom',
+			theme: 'light',
+			content: 'Twitter',
+		});
+		tippy('#linkedin-ref', {
+			placement: 'bottom',
+			theme: 'light',
+			content: 'LinkedIn',
+		});
+		tippy('#github-ref', {
+			placement: 'bottom',
+			theme: 'light',
+			content: 'GitHub',
+		});
+		tippy('#resume-ref', {
+			placement: 'bottom',
+			theme: 'light',
+			content: 'Resume',
+		});
+		tippy('#contact-ref', {
+			placement: 'bottom',
+			theme: 'light',
+			content: 'Contact',
+		});
+	  </script>
+	<script>
+		window.onload = function () { document.body.classList.remove('is-preload'); }
+		window.ontouchmove = function () { return false; }
+		window.onorientationchange = function () { document.body.scrollTop = 0; }
+	</script>
+</body>
+
+</html>
